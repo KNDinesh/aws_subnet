@@ -1,4 +1,4 @@
-resource "aws_subnet" "Zing_Subnets" {
+resource "aws_subnet" "subnets" {
   for_each = var.subnets
 
   vpc_id                                         = var.vpc_id
