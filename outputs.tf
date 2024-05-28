@@ -1,3 +1,4 @@
+# outputs for the module
 output "subnet_cidrs" {
   description = "List of subnet CIDR blocks"
   value = {

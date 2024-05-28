@@ -1,3 +1,4 @@
+# create subnets for the module
 resource "aws_subnet" "subnets" {
   for_each = var.subnets
 
