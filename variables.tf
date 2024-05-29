@@ -18,15 +18,3 @@ variable "subnets" {
     environment = string
   }))
 }
-
-# VPC Public Subnets
-variable "public_subnets" {
-  description = "A list of public subnets inside the VPC"
-  type        = list(string)
-}
-
-# VPC Private Subnets
-variable "private_subnets" {
-  description = "A list of private subnets inside the VPC"
-  type        = list(string)
-}
